@@ -1,4 +1,4 @@
-from data import get_dataset, get_dataset_random
+from data import get_dataset
 
 import time
 import utils
