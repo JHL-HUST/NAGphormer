@@ -1,0 +1,36 @@
+python train.py --dataset cora --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 3  --n_heads 8 --n_layers 1 --pe_dim 3 --peak_lr 0.01  --weight_decay=1e-05 
+
+python train.py --dataset citeseer --batch_size 2000 --dropout 0.3 --hidden_dim 512 \
+          --hops 7  --n_heads 8 --n_layers 1 --pe_dim 3 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset pubmed --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 7  --n_heads 8 --n_layers 1 --pe_dim 15 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset corafull --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 3  --n_heads 1 --n_layers 1 --pe_dim 10 --peak_lr 0.01  --weight_decay=1e-05 
+
+python train.py --dataset computer --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 3  --n_heads 8 --n_layers 1 --pe_dim 15 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset photo --batch_size 2000 --dropout 0.1 --hidden_dim 128 \
+          --hops 3  --n_heads 8 --n_layers 1 --pe_dim 10 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset cs --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 3  --n_heads 8 --n_layers 3 --pe_dim 10 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset physics --batch_size 2000 --dropout 0.1 --hidden_dim 128 \
+          --hops 5  --n_heads 8 --n_layers 1 --pe_dim 10 --peak_lr 0.01  --weight_decay=1e-05 
+
+python train.py --dataset aminer --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 16  --n_heads 8 --n_layers 3 --pe_dim 10 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset reddit --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 10  --n_heads 8 --n_layers 1 --pe_dim 10 --peak_lr 0.001  --weight_decay=1e-05 
+
+python train.py --dataset Amazon2M --batch_size 2000 --dropout 0.1 --hidden_dim 512 \
+          --hops 10  --n_heads 1 --n_layers 1 --pe_dim 3 --peak_lr 0.001  --weight_decay=1e-05 
+
+
+
+
