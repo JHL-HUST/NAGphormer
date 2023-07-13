@@ -86,7 +86,7 @@ if torch.cuda.is_available():
 
 
 # Load and pre-process data
-adj, features, labels, idx_train, idx_val, idx_test = get_dataset(args.dataset, args.pe_dim)
+adj, features, labels, idx_train, idx_val, idx_test = get_dataset(args.dataset, args.pe_dim, args.seed)
 
 
 processed_features = utils.re_features(adj, features, args.hops)  # return (N, hops+1, d)
